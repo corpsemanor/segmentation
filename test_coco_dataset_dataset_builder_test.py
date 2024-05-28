@@ -8,8 +8,8 @@ class TestCocoDatasetTest(tfds.testing.DatasetBuilderTestCase):
     """Tests for test_coco_dataset dataset."""
     DATASET_CLASS = Builder
     SPLITS = {
-        'train': 3,  # Number of fake train examples
-        'test': 1,   # Number of fake test examples
+        'train': 3,  
+        'test': 1,   
     }
 
     def setUp(self):
